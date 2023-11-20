@@ -1,0 +1,77 @@
+footer {
+  margin-top: 100px;
+  color: #fff;
+  background: black;
+  padding: 50px 0px;
+}
+
+footer i {
+  color: #222;
+}
+footer a {
+  color: #fff;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+hr {
+  margin-top: 50px;
+}
+.legal {
+  text-align: center;
+  font-size: 14px;
+  color: grey;
+}
+.legal a {
+  margin-left: 4px;
+  font-weight: 500;
+  color: #31b675;
+}
+footer h2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+footer .box p {
+  color: grey;
+  font-size: 13px;
+}
+footer .box a {
+  color: grey;
+  font-size: 13px;
+}
+footer .box ul li {
+  margin-bottom: 10px;
+}
+footer .post label,
+footer .post span {
+  font-size: 12px;
+  color: grey;
+}
+footer .post label {
+  margin-right: 10px;
+}
+.post hr {
+  margin-top: 0;
+}
+.box input {
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.box .primary-btn {
+  background: #31b675;
+  border-radius: 0;
+  border: none;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 20px;
+}
+@media screen and (max-width: 768px) {
+  .grid2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

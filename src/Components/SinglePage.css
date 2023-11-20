@@ -1,0 +1,68 @@
+.single-page {
+  position: relative;
+}
+.single-page .back {
+  position: absolute;
+  right: 8%;
+  top: -70px;
+}
+.single-page p {
+  color: grey;
+  margin: 10px 0 20px 0;
+}
+.main-content .para p {
+  margin-right: 10px;
+}
+.main-content h1 {
+  font-size: 30px;
+}
+.main-content img {
+  width: 100%;
+  height: auto;
+}
+.side-content .box {
+  background-color: #31b675;
+  color: #fff;
+  padding: 20px 20px;
+}
+.side-content .box p {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.side-content .box h2 {
+  font-weight: 500;
+}
+.side-content .box2 {
+  background: url(/public/images/singlepage/blog-4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+  margin-top: 30px;
+  height: 190px;
+  width: 100%;
+  position: relative;
+}
+.side-content .box2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 190px;
+  width: 100%;
+}
+.side-content .box2 p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+@media screen and (max-width: 768px) {
+  .single-page .flex {
+    flex-direction: column;
+  }
+}
